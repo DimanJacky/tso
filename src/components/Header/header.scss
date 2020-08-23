@@ -1,0 +1,27 @@
+.header {
+  &__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+  }
+  &__logo-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  &__logo {
+    width: 30px;
+    margin-right: 40px;
+  }
+  &__logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #4183c4;
+    margin: 0;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  }
+  &__release-application {
+    margin: 0;
+  }
+}

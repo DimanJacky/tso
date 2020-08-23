@@ -1,0 +1,58 @@
+[
+  {
+    "mopId": "6940BC6E6FAD25DB2DE446EB94C6A562",
+    "name": "Наличные",
+    "type": "CASH",
+    "isEnable": true,
+    "roles": [
+      "Cart.Payment"
+    ]
+  },
+  {
+    "mopId": "40C166CBA0DE56083DE54CD0B195A8A6",
+    "name": "Топливная карта",
+    "type": "FLEET",
+    "isEnable": true,
+    "roles": [
+      "Cart.Payment"
+    ]
+  },
+  {
+    "mopId": "0844AEBC93EF334F146E5AD26989170D",
+    "name": "Карта лояльности",
+    "type": "LOYALTY",
+    "isEnable": true,
+    "roles": [
+      "Cart.Payment"
+    ]
+  },
+  {
+    "mopId": "3013478CC0DB2A8CB60496BA0E6C5D2D",
+    "name": "Банковская карта",
+    "type": "BANK",
+    "isEnable": true,
+    "roles": [
+      "Cart.Payment"
+    ]
+  },
+  {
+    "mopId": "E1B849F9631FFC1829B2E31402373E3C",
+    "name": "Пролив  на мерник",
+    "type": "TEST",
+    "isEnable": false,
+    "comment": "Техпролив временно недоступен",
+    "roles": [
+      "Cart.Payment"
+    ]
+  },
+  {
+    "mopId": "C454552D52D55D3EF56408742887362B",
+    "name": "Пролив на пробу",
+    "type": "TEST",
+    "isEnable": false,
+    "comment": "Техпролив временно недоступен",
+    "roles": [
+      "Cart.Payment"
+    ]
+  }
+]

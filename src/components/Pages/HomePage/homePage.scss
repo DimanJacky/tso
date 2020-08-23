@@ -1,0 +1,66 @@
+.homePage {
+  &__wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+  }
+  &__section-action {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__action {
+    width: 690px;
+    height: 160px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    opacity: 0.85;
+    transition: opacity 0.3s, linear 0.3s;
+    &:hover {
+      opacity: 1;
+      transition-delay: 0s;
+      cursor: pointer;
+    }
+    &_fuel {
+      background: url('/images/trk.svg') #24a94c no-repeat;
+      background-position: 30px;
+    }
+    &_check {
+      background: url('/images/ticket.svg') #cd1e6c no-repeat;
+      background-position: 30px;
+    }
+  }
+  &__action-information {
+    background: #767676;
+    color: white;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+    transition: opacity 0.3s, linear 0.3s;
+    &:hover {
+      opacity: 1;
+      transition-delay: 0s;
+      cursor: pointer;
+    }
+  }
+}
+
+.link__wrapper {
+  width: 100%;
+}
+
